@@ -1,8 +1,26 @@
 {
   "name": "lazy-provide-inject",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "A utility library to simplify and enhance the usage of Vue 3's Composition API `provide` and `inject` features with type safety.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aose-yuu/lazy-provide-inject.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "composition-api",
+    "provide",
+    "inject",
+    "lazy"
+  ],
+  "author": "aose-yuu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aose-yuu/lazy-provide-inject/issues"
+  },
+  "homepage": "https://github.com/aose-yuu/lazy-provide-inject#readme",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
