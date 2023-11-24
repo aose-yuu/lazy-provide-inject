@@ -23,13 +23,13 @@
 To install the `lazy-provide-inject` library, run the following command:
 
 ```bash
-npm install lazy-provide-inject
+npm install -D lazy-provide-inject
 ```
 
 or if you're using yarn:
 
 ```bash
-yarn add lazy-provide-inject
+yarn add -D lazy-provide-inject
 ```
 
 ## Usage as npm Package
