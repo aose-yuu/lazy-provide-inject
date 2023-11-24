@@ -27,7 +27,7 @@
     "preview": "vite preview",
     "prepare": "npm run build"
   },
-  "types": "./types/input.d.ts",
+  "types": "./types/index.d.ts",
   "files": [
     "dist",
     "types"
@@ -38,7 +38,7 @@
     ".": {
       "import": "./dist/lazy-provide-inject.es.js",
       "require": "./dist/lazy-provide-inject.umd.js",
-      "types": "./types/input.d.ts"
+      "types": "./types/index.d.ts"
     }
   },
   "dependencies": {
