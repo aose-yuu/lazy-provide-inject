@@ -12,7 +12,10 @@
     "isolatedModules": true,
     "outDir": "./dist",
     "jsx": "preserve",
-    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./types",
 
     /* Linting */
     "strict": true,
