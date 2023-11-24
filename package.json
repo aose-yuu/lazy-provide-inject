@@ -26,7 +26,8 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
-  "main": "dist/lazy-provide-inject.umd.js",
+  "declaration": true,
+  "main": "./dist/lazy-provide-inject.umd.js",
   "dependencies": {
     "vue": "^3.3.8"
   },
