@@ -24,10 +24,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "npm run build"
   },
-  "declaration": true,
-  "main": "./dist/lazy-provide-inject.umd.js",
+  "types": "./types/main.d.ts",
+  "files": [
+    "/dist",
+    "/types"
+  ],
+  "browser": "./dist/lazy-provide-inject.umd.js",
+  "module": "./dist/lazy-provide-inject.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lazy-provide-inject.es.js",
+      "require": "./dist/lazy-provide-inject.umd.js"
+    }
+  },
   "dependencies": {
     "vue": "^3.3.8"
   },
