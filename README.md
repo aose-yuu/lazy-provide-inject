@@ -1,7 +1,7 @@
 # Lazy Provide Inject
 
 <p align="center">
-  <img src="./images/Image_20231124_212311_707.jpeg" alt="Lazy Provide Inject Logo">
+  <img src="./images/Image_20231124_204736_241.jpeg" alt="Lazy Provide Inject Logo" width="800">
 </p>
 
 <p align="center">
