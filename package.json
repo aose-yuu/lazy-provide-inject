@@ -23,16 +23,16 @@
   "homepage": "https://github.com/aose-yuu/lazy-provide-inject#readme",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "prepare": "npm run build"
   },
   "files": [
     "dist"
   ],
-  "browser": "./dist/lazy-provide-inject.umd.js",
   "main": "./dist/lazy-provide-inject.umd.js",
   "module": "./dist/lazy-provide-inject.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/lazy-provide-inject.es.js",
@@ -43,6 +43,7 @@
     "vue": "^3.3.8"
   },
   "devDependencies": {
+    "@types/node": "^20.10.0",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
     "@vitejs/plugin-vue": "^4.5.0",
@@ -57,6 +58,7 @@
     "stylelint-config-recommended-scss": "^13.1.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.3",
     "vue-tsc": "^1.8.22"
   }
 }
