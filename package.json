@@ -27,12 +27,11 @@
     "preview": "vite preview",
     "prepare": "npm run build"
   },
-  "types": "./types/main.d.ts",
   "files": [
-    "/dist",
-    "/types"
+    "dist"
   ],
   "browser": "./dist/lazy-provide-inject.umd.js",
+  "main": "./dist/lazy-provide-inject.umd.js",
   "module": "./dist/lazy-provide-inject.es.js",
   "exports": {
     ".": {
