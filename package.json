@@ -1,6 +1,6 @@
 {
   "name": "lazy-provide-inject",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "type": "module",
   "description": "A utility library to simplify and enhance the usage of Vue 3's Composition API `provide` and `inject` features with type safety.",
   "repository": {
