@@ -28,7 +28,8 @@
     "prepare": "npm run build"
   },
   "files": [
-    "dist"
+    "dist",
+    "src/types.d.ts"
   ],
   "main": "./dist/lazy-provide-inject.umd.js",
   "module": "./dist/lazy-provide-inject.es.js",
